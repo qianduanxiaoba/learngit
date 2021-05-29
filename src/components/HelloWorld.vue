@@ -2,7 +2,7 @@
     <div class="hello">
         <KForm :model="form" :rules="rules">
             <KFormItem label="用户名">
-                <KInput v-model="form.name"></KInput>
+<!--                <KInput v-model="form.name"></KInput>-->
             </KFormItem>
             <KFormItem label="密码">
                 <KInput type="password" placeholder="请输入密码" v-model="form.password"></KInput>
